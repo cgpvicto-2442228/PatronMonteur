@@ -1,5 +1,5 @@
 // Classe qui représente un ordinateur
-class Ordinateur {
+export class Ordinateur {
     //quantite de memoire vive en Go
     _ram = 0;
 

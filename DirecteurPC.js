@@ -1,7 +1,12 @@
-class DirecteurPC {
+import { MonteurPC } from "./MonteurPC.js";
+
+export class DirecteurPC {
     _monteurPC = null;
 
     setOrdinateur(monteur) {
+        if (!(monteur instanceof MonteurPC)) {
+            throw new Error("Erreur : Le monteur fourni doit être de type MonteurPC.");
+        }
         this._monteurPC = monteur
     }
 

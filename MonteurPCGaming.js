@@ -1,4 +1,7 @@
-class MonteurPCGaming {
+import { MonteurPC } from "./MonteurPC.js";
+import { Ordinateur } from "./Ordinateur.js";
+
+export class MonteurPCGaming extends MonteurPC {
     _ordinateur = new Ordinateur();
 
     /// <summary>

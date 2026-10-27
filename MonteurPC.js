@@ -1,4 +1,4 @@
-class MonteurPC {
+export class MonteurPC {
     constructor() {
         if (this.constructor === MonteurPC) {
             throw new Error("Impossible d'instancier une classe abstraite directement.")
