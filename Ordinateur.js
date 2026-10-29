@@ -2,13 +2,19 @@
  * @summary Classe qui représente un ordinateur
  */
 export class Ordinateur {
-    //quantite de memoire vive en Go
+    /**
+     * Quantité de mémoire vive en Go.
+     */
     _ram = 0;
 
-    //nom de la carte graphique
+    /**
+     * Nom de la carte graphique.
+     */
     _carteGraphique = "";
 
-    //quantite de memoire en Go
+    /**
+     * Quantité de mémoire en Go.
+     */
     _memoire = 0;
 
     /**
@@ -58,7 +64,7 @@ export class Ordinateur {
 
     /**
      * @summary Accesseur (écriture) de la quantité de mémoire.
-     * 
+     *
      * @param {number} valeur - La nouvelle quantité de mémoire.
      */
     set memoire(valeur) {
