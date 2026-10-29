@@ -5,30 +5,30 @@ export class MonteurPCBureau extends MonteurPC {
     _ordinateur = new Ordinateur();
 
     /**
-     * @summary Étape d'ajout de la carte graphique au pc en construction pour un pc de bureau
+     * @summary Étape d'ajout de la carte graphique au pc en construction pour un pc de bureau.
      */
     AjouterCarteGraphique() {
         this._ordinateur.carteGraphique = "integree";
     }
 
     /**
-     * @summary Étape d'ajout de la mémoire au pc en construction pour un pc de bureau
+     * @summary Étape d'ajout de la mémoire au pc en construction pour un pc de bureau.
      */
     AjouterMemoire() {
         this._ordinateur.memoire = 500;
     }
 
     /**
-     * @summary Étape d'ajout de la mémoire vive au pc en construction pour un pc de bureau
+     * @summary Étape d'ajout de la mémoire vive au pc en construction pour un pc de bureau.
      */
     AjouterRam() {
         this._ordinateur.ram = 16;
     }
 
     /**
-     * @summary Retourne l'ordinateur de jeu construit.
+     * @summary Retourne l'ordinateur de bureau construit.
      * 
-     * @returns {Ordinateur} Ordinateur construit
+     * @returns {Ordinateur} L'ordinateur construit.
      */
     AvoirOrdinateur() {
         return this._ordinateur

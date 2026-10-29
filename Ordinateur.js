@@ -1,5 +1,5 @@
 /**
- * @summary Classe qui représente un ordinateur
+ * @summary Classe qui représente un ordinateur.
  */
 export class Ordinateur {
     /**
